@@ -1,8 +1,8 @@
 # Author @ OT Chen
 # What @ reducing duplicated directory ex: "C:\aa\aa\aa"  to "C\aa"
-# Why @ It is created because I accidentally created the same name 
-#       for each torrent file which already has its name in free download
-#       manager
+# Why @ It is created because I accidentally created the same name folder 
+#       for each torrent file which already has its folder with the same 
+#       name in free download manager
 
 import os
 def hasDuplicated(wd, name):
